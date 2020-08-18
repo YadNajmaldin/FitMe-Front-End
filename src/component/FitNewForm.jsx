@@ -111,12 +111,12 @@ export default class FitNewForm extends Component {
                             <div className="text-gray-900 font-bold text-xl mb-2">Workout: {fit.name}</div>
                             <div className="text-gray-700 text-base">Steps: {fit.steps}</div>
                             <div className="text-gray-700 text-base">Note: {fit.description}</div>
-                            <div class="flex items-center">
-                            <div class="text-sm">
-                            <div class="text-gray-600">{fit.created_at}</div>
+                            <div className="flex items-center">
+                            <div className="text-sm">
+                            <div className="text-gray-600">{fit.created_at}</div>
                             </div>
                             </div>
-                            </div><button class="bg-blue-900 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded" onClick={()=>this.deleteFit(fit.id)}>delete</button>
+                            </div><button className="bg-blue-900 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded" onClick={()=>this.deleteFit(fit.id)}>delete</button>
                             </div>
                         </div>
                         )
