@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.px-2 {
+  font-family: 'Jura', sans-serif;
+
+}
+
+
+#nav {
+  font-family: 'Jura', sans-serif;
+  background: rgb(181, 96, 65);
+
+}
+
+#card {
+  padding-left: 50px;
+  padding-top: 50px;
+  display: grid;
+}
+#dumbbells {
+  font-family: 'Jura', sans-serif;
+  font-size: 18pt;
+
+}
+#dumbbells img {
+  height: 280px;
+  width: 400px;
+}
+
+.footer {
+ padding-right: 900px;
+}
+
+#about {
+
+  height: 500px;
+  padding-left: 500px;
+
+
+}
