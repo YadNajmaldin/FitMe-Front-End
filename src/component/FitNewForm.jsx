@@ -83,6 +83,7 @@ export default class FitNewForm extends Component {
                     })
                 } 
             })
+        
         }
     
     componentDidMount() {
